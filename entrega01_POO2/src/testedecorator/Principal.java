@@ -16,18 +16,21 @@ public class Principal {
 		// Adicionar Fogo no Ataque
 		System.out.println("-=-=-=-=-=-=-=-=-=\n");
 		p1.setAtaque(new Fogo(p1.getAtaque()));
+		System.out.println("Poder de Fogo Ativado!");
 		dano = p1.atacar();
 		System.out.println("Dano do ataque: "+dano);
-		
+
 		// Adicionar Ar no Ataque
 		System.out.println("-=-=-=-=-=-=-=-=-=\n");
 		p1.setAtaque(new Ar(p1.getAtaque()));
+		System.out.println("Poder de Ar Ativado!");
 		dano = p1.atacar();
 		System.out.println("Dano do ataque: "+dano);
 		
 		// Adicionar Agua no Ataque
 		System.out.println("-=-=-=-=-=-=-=-=-=\n");
 		p1.setAtaque(new Agua(p1.getAtaque()));
+		System.out.println("Poder de Agua Ativado!");
 		dano = p1.atacar();
 		System.out.println("Dano do ataque: "+dano);
 	}

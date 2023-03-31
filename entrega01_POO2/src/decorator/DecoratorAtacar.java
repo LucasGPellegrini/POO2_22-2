@@ -16,13 +16,19 @@ public abstract class DecoratorAtacar extends Personagem{
 import strategy.Atacar;
 
 public abstract class DecoratorAtacar implements Atacar {
-private Atacar ataqueDecorado;
+	private Atacar ataqueDecorado;
+	private int danoAdicional;
 	
 	public DecoratorAtacar(Atacar PAtaqueDecorado) {
 		this.ataqueDecorado = PAtaqueDecorado;
 	}
 	
 	public int atacar() {
-		return ataqueDecorado.atacar();
+		return ataqueDecorado.atacar() + this.danoAdicional;
 	}
+	
+	public void setDanoAdicional(int valor) {
+		this.danoAdicional = valor;
+	}
+
 }
