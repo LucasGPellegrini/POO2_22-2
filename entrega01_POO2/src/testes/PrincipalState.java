@@ -1,8 +1,8 @@
-package testestate;
+package testes;
 
 import contexto.Personagem_2e3;
 
-public class Principal {
+public class PrincipalState {
 	
 	public static void main(String[] args) {
 		Personagem_2e3 p1 = new Personagem_2e3();

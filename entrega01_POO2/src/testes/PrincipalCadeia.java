@@ -1,9 +1,9 @@
-package testecadeia;
+package testes;
 
 import cadeia.*;
 import contexto.Personagem_2e3;
 
-public class Principal {
+public class PrincipalCadeia {
 	
 	public static void main(String[] args) {
 		Personagem_2e3 p1 = new Personagem_2e3();

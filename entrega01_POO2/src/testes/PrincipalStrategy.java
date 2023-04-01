@@ -1,7 +1,7 @@
-package testestrategy;
+package testes;
 import contexto.*;
 
-public class Main {
+public class PrincipalStrategy {
 
 	public static void main(String[] args) {
 		Personagem01 p1 = new Personagem01();

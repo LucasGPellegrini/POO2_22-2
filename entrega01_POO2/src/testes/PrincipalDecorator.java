@@ -1,9 +1,9 @@
-package testedecorator;
+package testes;
 
 import contexto.*;
 import decorator.*;
 
-public class Principal {
+public class PrincipalDecorator {
 
 	public static void main(String[] args) {
 		Personagem p1 = new Personagem01();
