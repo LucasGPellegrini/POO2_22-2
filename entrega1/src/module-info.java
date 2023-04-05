@@ -5,5 +5,5 @@
  * @author lucas
  *
  */
-module entrega01_POO2 {
+module entrega1 {
 }
