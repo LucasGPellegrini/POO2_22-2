@@ -1,11 +1,11 @@
 package testes;
 
-import contexto.Personagem_2e3;
+import contexto.*;
 
 public class PrincipalState {
 	
 	public static void main(String[] args) {
-		Personagem_2e3 p1 = new Personagem_2e3();
+		Personagem p1 = new Personagem01();
 		
 		System.out.println("Personagem Criado!");
 		System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_\n");

@@ -1,21 +1,18 @@
 package estado;
 
-import contexto.Personagem_2e3;
-// -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-// Implementar transições indiretas.
-// -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+import contexto.*;
 
 public abstract class Estado {
-	private Personagem_2e3 personagem;
+	private Personagem personagem;
 	private int limite_superior;
 	private int limite_inferior;
 	
-	public Estado(Personagem_2e3 personagem) {
+	public Estado(Personagem personagem) {
 		this.personagem = personagem;
 		setLimites();
 	}
 	
-	public Personagem_2e3 getPersonagem() {
+	public Personagem getPersonagem() {
 		return this.personagem;
 	}
 	

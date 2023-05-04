@@ -1,10 +1,10 @@
 package estado;
 
-import contexto.Personagem_2e3;
+import contexto.*;
 import strategy.*;
 
 public class EstadoForte extends Estado {
-	public EstadoForte(Personagem_2e3 personagem) {
+	public EstadoForte(Personagem personagem) {
 		super(personagem);
 		this.getPersonagem().setAtaque(new AtacarForte());
 		this.getPersonagem().setCorrida(new CorrerRapido());

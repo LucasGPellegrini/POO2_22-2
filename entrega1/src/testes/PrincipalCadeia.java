@@ -1,12 +1,12 @@
 package testes;
 
 import cadeia.*;
-import contexto.Personagem_2e3;
+import contexto.*;
 
 public class PrincipalCadeia {
 	
 	public static void main(String[] args) {
-		Personagem_2e3 p1 = new Personagem_2e3();
+		Personagem p1 = new Personagem01();
 		
 		// Inicio da Cadeia
 		HandlerEscudo escudo5 = new Escudo(5);
