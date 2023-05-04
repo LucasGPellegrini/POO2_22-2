@@ -1,6 +1,8 @@
 package composite;
+import cadeia.HandlerEscudo;
+import contexto.Personagem;
 
 // Component
 public interface Labirinto {
-    public int passar_sala();
+    public void passar_sala(Personagem p, HandlerEscudo e);
 }

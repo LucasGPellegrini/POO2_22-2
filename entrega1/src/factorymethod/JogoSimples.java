@@ -16,15 +16,15 @@ public class JogoSimples {
             case 2 ->  {
                     p = new Personagem02();
                     p.recolherRecompensa(15);
-                }
+            }
             case 3 ->  {
                     p = new Personagem03();
                     p.recolherRecompensa(25);
-                }
+            }
             default -> {
                     p = new Personagem01();
                     p.recolherRecompensa(30);
-                }
+            }
         }
        
        return p;

@@ -19,7 +19,7 @@ public class EstadoMorto extends Estado{
 	public void checaEstado() {
 		/*if (this.getPersonagem().getVida() > this.getLimiteSuperior()) {
 			this.getPersonagem().setEstado(new EstadoPerigo(getPersonagem()));
-			this.getPersonagem().getEstado().checaEstado();s
+			this.getPersonagem().getEstado().checaEstado();
 		}*/
 		System.out.println("Fim de Jogo!");
 	}
