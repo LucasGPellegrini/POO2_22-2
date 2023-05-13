@@ -7,9 +7,9 @@ public class PrincipalFactoryMethod {
             Jogo jogoFM = new JogoComPoder();
             jogoFM.jogar();
             
-            System.out.println("\n\n---------------------------------\n");
+            System.out.println("\n\n-------------JOGO-SIMPLE_FACTORY-------------\n\n");
             
-            JogoSimples jogoSF = new JogoSimples();
-            //jogoSF.jogar();
+            Jogo jogoSF = new JogoSimples();
+            jogoSF.jogar();
 	}
 }

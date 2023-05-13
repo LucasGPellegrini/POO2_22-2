@@ -2,8 +2,10 @@ package factorymethod;
 
 import contexto.*;
 
-public class JogoSimples {
-    public static Personagem criaPersonagem(int tipo) {
+public class JogoSimples extends Jogo{
+    
+    @Override
+    public Personagem criaPersonagem(int tipo) {
         Personagem p;
         
         switch (tipo) {
